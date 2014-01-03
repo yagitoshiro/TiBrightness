@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: set/get screen brightness
+author: Toshiro Yagi
+license: MIT
+copyright: Toshiro Yagi
+
+
+# these should not be edited
+name: tibrightnessandroid
+moduleid: org.selfkleptomaniac.mod.tibrightness
+guid: 0a442f3e-6168-47da-9f5f-da3c039f4d48
+platform: android
+minsdk: 3.2.0.GA
