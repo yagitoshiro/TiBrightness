@@ -88,7 +88,7 @@
 -(float)setBrightness:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
-    NSString *newBrightness = [TiUtils stringValue:@"brightness" properties:args def:@"default"];
+    NSString *newBrightness = [TiUtils stringValue:[args objectForKey:@"brightness"]];
     CGFloat brightness = [newBrightness floatValue];
     if(brightness > 1.0f){
         brightness = 1.0f;
